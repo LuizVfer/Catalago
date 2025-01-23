@@ -31,6 +31,3 @@ Este é um projeto de catálogo de produtos desenvolvido com Node.js, Express, M
 
 Luiz
 
-## Licença
-
-Este projeto está licenciado sob a licença ISC. Consulte o arquivo LICENSE para obter mais informações.
