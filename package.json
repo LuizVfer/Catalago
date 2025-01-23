@@ -1,0 +1,27 @@
+{
+  "name": "catalago-de-eletronicos",
+  "version": "1.0.0",
+  "description": "Projeto catalago eletronicos com NodeJs e MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "express-handlebars",
+    "bootstrap",
+    "mysql"
+  ],
+  "author": "Luiz",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "express-handlebars": "^8.0.1",
+    "i": "^0.3.7",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  }
+}

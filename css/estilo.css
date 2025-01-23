@@ -1,0 +1,97 @@
+body {
+    background-color: #696969; /* Adiciona um background cinza claro */
+}
+.navbar-custom {
+    background-color: #525252 !important;
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #FFD700;
+}
+
+form{
+    margin-top: 40px;
+    text-align: center;
+}
+form input, form select{
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid gray;
+}
+
+
+form input[type="submit"]{
+   margin-top: 15px;
+   
+}
+
+form img{
+    width: 300px;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+
+
+.card{
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.textos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card a{
+    margin-top: 5px;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.alert{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Remover margem do formulário */
+.formularioPesquisa{
+    margin: 0;
+}
+
+/* Estrutura do formulário de pesquisa (barra de navegação) */
+.formularioPesquisa input,
+.formularioPesquisa input[type="submit"]
+{
+    margin: 0;
+}
+
+/* Configurar o dropdown para ser exibido quando passar o cursor sobre o link */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.produtoNaoEncontrado{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    
+}
